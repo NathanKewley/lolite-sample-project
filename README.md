@@ -18,10 +18,10 @@ This project is referenced in the following blog posts:
 
 The workflow here will look like:
 
-![devops-flow](docco\lolite-sample-project-devops-flow.jpg)
+![devops-flow](docco/lolite-sample-project-devops-flow.jpg)
 
 ## What gets deployed
 
 The end result in Azure looks like the following:
 
-![devops-flow](docco\lolite-sample-project-azure.jpg)
+![devops-flow](docco/lolite-sample-project-azure.jpg)

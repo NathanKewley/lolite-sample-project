@@ -29,9 +29,8 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Build and install lolite
+    - name: Install lolite
       run: |
-        python -m build
         pip install lolite
 
     - name: Deploy
