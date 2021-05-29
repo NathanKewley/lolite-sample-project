@@ -2,7 +2,7 @@
 bicep_path: storage_account.bicep
 
 pre_hooks:
-  Python3Script: scripts/test_python_hook.py
+  Python3Script: scripts/SlackNotify.py
 
 params:
   location: australiaeast
@@ -11,4 +11,4 @@ params:
   skuName: Standard_LRS
 
 post_hooks:
-  BashScript: scripts/test_bash_hook.sh
+  Python3Script: scripts/SlackNotify.py
